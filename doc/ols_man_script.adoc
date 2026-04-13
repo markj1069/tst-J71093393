@@ -3,6 +3,7 @@
 :authorinitials: mjj
 :doctype: manpage
 :mandate: 2026-04-12
+:manpurpose: A one-line description of the script's purpose.
 :man_rel_name: Working Draft
 :mantitle: script_name(1)
 :manversion: 0.0.2
@@ -98,7 +99,7 @@ EX &ge; 16:: Fatal Error, the script did not complete successfully.
 
 == Errors
 
-A list of every error and warning message that the script can generate
+A list of every informational, warning, and error messages that the script can generate
 (even the ones that will &ldquo;never happen&rdquo;), with a full explanation
 of each problem, one or more likely causes, and any suggested remedies.
 
@@ -242,7 +243,21 @@ you should not do this in the first place.
 
 == Bugs
 
-A list of all known bugs in the script, including any workarounds.
+A list of known problems with the module, together with some indication of
+whether they are likely to be fixed in an upcoming release.
+
+Also, a list of restrictions on the features the module does provide: data types
+that cannot be handled, performance issues and the circumstances in which they
+may arise, practical limitations on the size of data sets, special cases that
+are not (yet) handled, etc.
+
+The initial template usually just has:
+
+There are no known bugs in this module.
+
+Please report problems to <Maintainer name(s)> (<contact address>)
+
+Patches are welcome.
 
 
 == Examples
